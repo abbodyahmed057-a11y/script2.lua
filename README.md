@@ -1,5 +1,5 @@
--- Roblox Highlight Script: Highlights all players and ensures name tags are visible.
--- This is a LocalScript equivalent, but designed to run via loadstring.
+-- This is a LocalScript. Place it in StarterPlayer > StarterPlayerScripts in Roblox Studio.
+-- It highlights all players in the game and ensures their name tags are visible (they are by default, but this reinforces it).
 
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
